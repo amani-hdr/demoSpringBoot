@@ -22,11 +22,5 @@ public class StudentService {
         return studentRepository.findAll(); 
     }
 
-    public List<Object> getAllStudentsUniversity() {
-    return studentRepository.getAllStudentsUniversity(); 
-    }
 
-    public List<Object> findStudentsByUniversity(String univName) {
-    return studentRepository.findStudentsByUniversity(univName); 
-    }
 }
